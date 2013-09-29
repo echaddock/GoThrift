@@ -29,35 +29,154 @@
 	<body>
 		<div data-role="page">
 			<div data-role="header" data-theme="c">
-				<img src="img/Thift_Logo.png" height="130"width="800"/>
-
-
+				<img src="img/Official_Logo.png" height="160"width="800"/>
 			</div><!-- /header -->
+      
 			<div data-role="content">
 				<ul data-role="listview">
 
-					<li data-role="list-divider"></li>
-					<li><a href="events.html">Events by City</a></li>
-					<li><a href="map.html">Map</a></li>
-                    <li>
+					<!--<li data-role="list-divider"></li>-->
+					<!--<li><a href="events.html">Events by City</a></li>-->
+
+                    <h4 style="padding-top:20px;font-family:Avenir;padding-bottom:30px">Here's some upcoming events:</h4>
+
+
+          <li data-corners="false" data-shadow="false" data-iconshadow="true"
+          data-wrapperels="div" data-icon="false" data-iconpos="right"
+          data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c"
+          >
+          <div class="ui-btn-inner ui-li">
+            <div class="ui-btn-text">
+              <a href="#" class="ui-link-inherit">
+                <p class="ui-li-aside ui-li-desc" style="font-family:Avenir;">@ 6:24 pm</p>
+                <img src="img/calendar.png" alt="list thumbnail" class="ui-li-thumb">
+                <h1 class="ui-li-heading" style="font-family:Avenir;">Back to school special</h1>
+                <p class="ui-li-desc" style="font-family:Avenir;">University of San Diego</p>
+              </a>
+            </div>
+          </div>
+        </li>
+
+                <hr class="BB10Gradient">
+
+
+        <li data-corners="false" data-shadow="false" data-iconshadow="true"
+          data-wrapperels="div" data-icon="false" data-iconpos="right"
+          data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c"
+          >
+          <div class="ui-btn-inner ui-li">
+            <div class="ui-btn-text">
+              <a href="#" class="ui-link-inherit">
+                <p class="ui-li-aside ui-li-desc" style="font-family:Avenir;">@ 6:24 pm</p>
+                <img src="img/calendar.png" alt="list thumbnail" class="ui-li-thumb">
+                <h1 class="ui-li-heading" style="font-family:Avenir;">Back to school special</h1>
+                <p class="ui-li-desc" style="font-family:Avenir;">UC San Diego</p>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <hr class="BB10Gradient">
+
+
+        <li data-corners="false" data-shadow="false" data-iconshadow="true"
+          data-wrapperels="div" data-icon="false" data-iconpos="right"
+          data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c"
+          >
+          <div class="ui-btn-inner ui-li">
+            <div class="ui-btn-text">
+              <a href="#" class="ui-link-inherit">
+                <p class="ui-li-aside ui-li-desc" style="font-family:Avenir;">@ 6:24 pm</p>
+                <img src="img/calendar.png" alt="list thumbnail" class="ui-li-thumb">
+                <h1 class="ui-li-heading" style="font-family:Avenir;">Back to school special</h1>
+                <p class="ui-li-desc" style="font-family:Avenir;">San Diego State University</p>
+              </a>
+            </div>
+          </div>
+        </li>
+
+                <hr class="BB10Gradient">
+
+
+
+        <li data-corners="false" data-shadow="false" data-iconshadow="true"
+          data-wrapperels="div" data-icon="false" data-iconpos="right"
+          data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c"
+          >
+          <div class="ui-btn-inner ui-li">
+            <div class="ui-btn-text">
+              <a href="#" class="ui-link-inherit">
+                <p class="ui-li-aside ui-li-desc" style="font-family:Avenir;">@ 6:24 pm</p>
+                <img src="img/calendar.png" alt="list thumbnail" class="ui-li-thumb">
+                <h1 class="ui-li-heading" style="font-family:Avenir;">Back to school special</h1>
+                <p class="ui-li-desc" style="font-family:Avenir;">San Diego State University</p>
+              </a>
+            </div>
+          </div>
+        </li>
+
+                <hr class="BB10Gradient">
+
+
+        <li data-corners="false" data-shadow="false" data-iconshadow="true"
+          data-wrapperels="div" data-icon="false" data-iconpos="right"
+          data-theme="c" class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c"
+          >
+          <div class="ui-btn-inner ui-li">
+            <div class="ui-btn-text">
+              <a href="#" class="ui-link-inherit">
+                <p class="ui-li-aside ui-li-desc" style="font-family:Avenir;">@ 6:24 pm</p>
+                <img src="img/calendar.png" alt="list thumbnail" class="ui-li-thumb">
+                <h1 class="ui-li-heading" style="font-family:Avenir;">Back to school special</h1>
+                <p class="ui-li-desc" style="font-family:Avenir;">San Diego State University</p>
+              </a>
+            </div>
+          </div>
+        </li>
+
+
+
+                
+
+
+					<li><a href="map.html">Catalog</a></li>
+                    <li class="ui-btn ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb ui-btn-up-c">
                     	<head>
+
+                        <h4>Event Map</h4>
 
     <style>
       #map_canvas {
-        width: 400px;
+
+        width: 100% auto;
         height: 400px;
       }
     </style>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script>
+  <script>
+     var locations = [
+      ['UC San Diego', 32.875598,-117.227149],
+      ['USD', 32.771636,-117.189403],
+      ['SDSU', 32.774625,-117.07132],
+      ['FIDM', 32.708894,-117.1558]
+    ];
       function initialize() {
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
           center: new google.maps.LatLng(32.7150, -117.1625),
-          zoom: 8,
+          zoom: 10,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(map_canvas, map_options)
+        var infowindow = new google.maps.InfoWindow();
+        var marker, i;
+        for(i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+        position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        map: map,
+        title: locations[i][0]
+        });
+      } //end for loop
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
